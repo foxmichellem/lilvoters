@@ -4,7 +4,7 @@ name: Theo
 age: 2
 sent-on: "April 6, 2017"
 recipient: John Mccain
-description: Theo sent a Valentine to John Mccain
+description: Theo sent a Valentine to John Mccain Calder sent a Valentine to John Mccain Calder sent a Valentine to John Mccain
 location: San Francisco
 image: assets/images/slow_down.jpg
 ---

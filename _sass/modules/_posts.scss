@@ -3,6 +3,8 @@
   background-color: $blue--300;
 
   .post {
+    padding-left: 2em;
+
     &__thumb {
       max-width: 100%;
       widows: 100%;
@@ -16,13 +18,21 @@
     }
 
     &__title {
-      font-weight: 600;
       border-bottom: 1px solid $black--100;
+      font-size: 1.625em;
+    }
+
+    &__subtitle {
+      padding: .75em 0;
+      font-size: 1.5em;
+      font-family: "Light";
     }
 
     &__text {
       font-weight: 300;
       font-style: italic;
+      font-family: "Light";
+      font-size: 1.25em;
     }
 
     p {
