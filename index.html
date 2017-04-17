@@ -31,26 +31,35 @@ layout: default
                 {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
                   {% if thecycle == 'odd' %}
                     <div class="col-xs-12">
-                      <a href="{{ post.url }}">
-                        <div class="label">
+                      <div class="post">
+                        <div class="post__label {{ post.color }}">
+                          <p class="post__label__entry">
+                            Entry
+                          </p>
+                          <p class="post__label__num">
+                            # {{ post.num }}
+                          </p>
                         </div>
-                        <div class="post">
-                          <img class="post__thumb" src="{{ site.baseurl }}/{{ post.image }}">
-                          <div class="post__content">
-                            <p class="post__title">
+                        <img class="post__thumb" src="{{ site.baseurl }}/{{ post.image }}">
+                        <div class="post__content">
+                          <div class="post__title">
+                            <p>
                               {{ post.name }} / {{ post.age }}
                             </p>
-                            <p class="post__subtitle">
-                              Sent to {{ post.recipient }}
-                            <br>
-                              {{ post.sent-on }}
-                            </p>
-                            <p class="post__text">
-                              {{ post.description }}
-                            </p>
+                            <span>
+                              <img class="post__icon" src="{{ site.baseurl }}/assets/images/plus.svg"></img>
+                            </span>
                           </div>
+                          <p class="post__subtitle">
+                            Sent to {{ post.recipient }}
+                          <br>
+                            {{ post.sent-on }}
+                          </p>
+                          <p class="post__text">
+                            {{ post.description }}
+                          </p>
                         </div>
-                      </a>
+                      </div>
                     </div>
                 {% endif %}
               {% endfor %}
@@ -64,26 +73,35 @@ layout: default
                 {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
                   {% if thecycle == 'even' %}
                     <div class="col-xs-12">
-                      <a href="{{ post.url }}">
-                        <div class="label">
+                      <div class="post">
+                        <div class="post__label  {{ post.color }}">
+                          <p class="post__label__entry">
+                            Entry
+                          </p>
+                          <p class="post__label__num">
+                            # {{ post.num }}
+                          </p>
                         </div>
-                        <div class="post">
-                          <img class="post__thumb" src="{{ site.baseurl }}/{{ post.image }}">
-                          <div class="post__content">
-                            <p class="post__title">
+                        <img class="post__thumb" src="{{ site.baseurl }}/{{ post.image }}">
+                        <div class="post__content">
+                          <div class="post__title">
+                            <p>
                               {{ post.name }} / {{ post.age }}
                             </p>
-                            <p class="post__subtitle">
-                              Sent to {{ post.recipient }}
-                            <br>
-                              {{ post.sent-on }}
-                            </p>
-                            <p class="post__text">
-                              {{ post.description }}
-                            </p>
+                            <span>
+                              <img class="post__icon" src="{{ site.baseurl }}/assets/images/plus.svg"></img>
+                            </span>
                           </div>
+                          <p class="post__subtitle">
+                            Sent to {{ post.recipient }}
+                          <br>
+                            {{ post.sent-on }}
+                          </p>
+                          <p class="post__text">
+                            {{ post.description }}
+                          </p>
                         </div>
-                      </a>
+                      </div>
                     </div>
                 {% endif %}
               {% endfor %}

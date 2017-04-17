@@ -1,15 +1,67 @@
 ---
-layout: page
-title: Submit
+layout: default
 permalink: /submit/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<div class="marquee">
+  <div class="marquee__content">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="marquee__title">
+            Submit your lil letter
+          </h1>
+          <div class="marquee__cta">
+            <a>
+              Find an address
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+<div class="submit">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="submit__form">
+          <form action="https://liveformhq.com/form/5fdbb31c-9811-40e2-a0ec-3c3f9f383135" method="POST" accept-charset="utf-8" enctype="multipart/form-data">
+            <input type="hidden" name="_utf8" value="✓">
+
+            <input type="hidden" value="https://mysite.com/redirect_thank_you" name="_redirect" />
+
+            <p class="submit__form__option">
+              <label for="name">Child's first name</label>
+              <input type="text" id="name" name="name" placeholder="Calder"> <br />
+            </p>
+
+            <p class="submit__form__option">
+              <label for="email">Age</label>
+              <input type="text" id="email" name="age" placeholder="4"> <br />
+            </p>
+
+            <p class="submit__form__option">
+              <label for="name">Who was this sent to?</label>
+              <input type="text" id="name" name="senator" placeholder="John McCain"> <br />
+            </p>
+
+            <p class="submit__form__option">
+              <label for="email">Description (optional)</label>
+              <textarea id="email" name="description" placeholder="This is where you say what the picture doesn't"></textarea>
+            </p>
+
+            <input class="submit__form__upload" type=file name=upload />
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

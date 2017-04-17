@@ -1,0 +1,15 @@
+.about {
+
+  &__map {
+    text-align: center;
+    margin: 3em 0;
+  }
+
+  &__copy {
+    margin-top: 3em;
+  }
+
+  &__content {
+    background-color: $blue--300;
+  }
+}

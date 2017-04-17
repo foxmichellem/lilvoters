@@ -1,10 +1,12 @@
 ---
 layout: post
 name: Calder
+num: 02
+color: pink
 age: 4
 sent-on: "April 10, 2017"
 recipient: John Mccain
 description: Calder sent a Valentine to John Mccain
 location: San Francisco
-image: assets/images/slow_down.jpg
+image: assets/images/post_images/got_love.jpg
 ---

@@ -4,6 +4,8 @@
 
   .post {
     padding-left: 2em;
+    position: relative;
+    width: 85%;
 
     &__thumb {
       max-width: 100%;
@@ -17,9 +19,49 @@
       margin-bottom: 1.5em;
     }
 
+    &__label {
+      position: absolute;
+      width: 72px;
+      height: 72px;
+      top: -1.5em;
+      left: .5em;
+      color: $black--100;
+      opacity: .8;
+
+      &__entry {
+        display: inline;
+        font-size: 1.5em;
+        position: absolute;
+        left: -2.3em;
+        top: 40%;
+
+        @media screen and (max-width: 45em) {
+          display: none;
+        }
+      }
+
+      &__num {
+        display: inline;
+        font-size: 1.5em;
+        position: absolute;
+        left: .5em;
+        top: 40%;
+      }
+    }
+
     &__title {
       border-bottom: 1px solid $black--100;
       font-size: 1.625em;
+
+      p{
+        display: inline;
+      }
+    }
+
+    &__icon {
+      height: 26px;
+      display: inline;
+      float: right;
     }
 
     &__subtitle {
@@ -40,4 +82,28 @@
       color: $black--100;
     }
   }
+}
+
+.yellow {
+  background-color: $yellow--200;
+}
+
+.pink {
+  background-color: $pink--100;
+}
+
+.blue {
+  background-color: $blue--400;
+}
+
+.orange {
+  background-color: $orange--100;
+}
+
+.purple {
+  background-color: $purple--100;
+}
+
+.teal {
+  background-color: $teal--100;
 }

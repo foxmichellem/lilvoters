@@ -1,10 +1,12 @@
 ---
 layout: post
 name: Theo
+num: 8
+color: pink
 age: 2
 sent-on: "April 6, 2017"
 recipient: John Mccain
 description: Theo sent a Valentine to John Mccain
 location: San Francisco
-image: assets/images/slow_down.jpg
+image: assets/images/post_images/got_love.jpg
 ---

@@ -1,0 +1,28 @@
+.submit {
+  background-color: $blue--300;
+  padding: 3em 0;
+
+  &__form {
+
+    label {
+      color: $blue--200;
+      font-size: 1.625em;
+      display: block;
+    }
+
+    input, textarea {
+      outline: none;
+      width: 100%;
+      display: block;
+      padding: .1em;
+      font-size: 1.625em;
+
+      &::placeholder {
+        opacity: .5;
+        font-style: italic;
+        font-size: .75em;
+      }
+    }
+
+  }
+}

@@ -34,4 +34,20 @@
   &__text {
     margin: (12/16) + em 0;
   }
+
+  &__cta {
+    border: 3px solid $teal--100;
+    color: $blue--200;
+    font-family: "Light";
+    font-size: 1.625em;
+    padding: .3em 1em .075em;
+    margin-top: .25em;
+    display: inline-block;
+
+    &:hover {
+      background-color: $teal--100;
+      font-size: "Metric";
+      cursor: pointer;
+    }
+  }
 }

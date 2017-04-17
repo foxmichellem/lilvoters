@@ -1,10 +1,12 @@
 ---
 layout: post
 name: Thea
+num: 06
+color: teal
 age: 3
 recipient: John Mccain
 sent-on: "April 9, 2017"
 description: Dessert dessert apple pie. Cupcake donut dessert icing cake cupcake croissant apple pie. Candy canes icing toffee. Macaroon bonbon jujubes candy canes dragée liquorice cake. Sesame snaps pastry sweet croissant danish
 location: San Francisco
-image: assets/images/slow_down.jpg
+image: assets/images/post_images/thumbs.jpg
 ---
