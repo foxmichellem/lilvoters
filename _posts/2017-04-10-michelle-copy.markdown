@@ -1,7 +1,7 @@
 ---
 layout: post
 name: Michelle
-num: 03
+num: "03"
 color: blue
 age: 4
 sent-on: "April 12, 2017"

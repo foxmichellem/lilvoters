@@ -1,7 +1,7 @@
 ---
 layout: post
 name: Calder
-num: 02
+num: "02"
 color: pink
 age: 4
 sent-on: "April 10, 2017"

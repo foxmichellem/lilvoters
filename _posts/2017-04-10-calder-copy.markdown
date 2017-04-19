@@ -2,7 +2,7 @@
 layout: post
 name: Calder
 color: yellow
-num: 01
+num: "01"
 age: 4
 sent-on: "April 10, 2017"
 recipient: John Mccain

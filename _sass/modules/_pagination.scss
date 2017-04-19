@@ -1,0 +1,21 @@
+.pagination {
+  float: right;
+  margin: 1em 0;
+  font-size: 2.5em;
+}
+
+.page-number {
+  display: inline;
+  padding: 0 .5em;
+  border-radius: 50%;
+
+  &__active {
+    padding-top: .3em;
+    background-color: $yellow--100;
+  }
+
+  &__inactive {
+    opacity: .25;
+    color: $black--100;
+  }
+}

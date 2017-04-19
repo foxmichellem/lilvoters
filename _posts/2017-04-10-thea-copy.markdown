@@ -1,7 +1,7 @@
 ---
 layout: post
 name: Thea
-num: 05
+num: "05"
 color: purple
 age: 3
 recipient: John Mccain
