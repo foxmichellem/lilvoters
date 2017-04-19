@@ -4,5 +4,8 @@
   "version": "0.1.0",
   "devDependencies": {
     "flexy.grid": "^1.0.0"
+  },
+  "dependencies": {
+    "lightbox2": "^2.9.0"
   }
 }

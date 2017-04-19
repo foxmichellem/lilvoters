@@ -40,14 +40,18 @@ layout: default
                             # {{ post.num }}
                           </p>
                         </div>
-                        <img class="post__thumb" src="{{ site.baseurl }}/{{ post.image }}">
+                        <a href="{{ site.baseurl }}/{{ post.image }}" data-lightbox="{{ post.image }}">
+                          <img class="post__thumb" src="{{ site.baseurl }}/{{ post.image }}">
+                        </a>
                         <div class="post__content">
                           <div class="post__title">
                             <p>
                               {{ post.name }} / {{ post.age }}
                             </p>
                             <span>
-                              <img class="post__icon" src="{{ site.baseurl }}/assets/images/plus.svg"></img>
+                              <a href="{{ site.baseurl }}/{{ post.image }}" data-lightbox="{{ post.image }}">
+                                <img class="post__icon" src="{{ site.baseurl }}/assets/images/plus.svg"></img>
+                              </a>
                             </span>
                           </div>
                           <p class="post__subtitle">
@@ -82,14 +86,18 @@ layout: default
                             # {{ post.num }}
                           </p>
                         </div>
-                        <img class="post__thumb" src="{{ site.baseurl }}/{{ post.image }}">
+                        <a href="{{ site.baseurl }}/{{ post.image }}" data-lightbox="{{ post.image }}">
+                          <img class="post__thumb" src="{{ site.baseurl }}/{{ post.image }}">
+                        </a>
                         <div class="post__content">
                           <div class="post__title">
                             <p>
                               {{ post.name }} / {{ post.age }}
                             </p>
                             <span>
-                              <img class="post__icon" src="{{ site.baseurl }}/assets/images/plus.svg"></img>
+                              <a href="{{ site.baseurl }}/{{ post.image }}" data-lightbox="{{ post.image }}">
+                                <img class="post__icon" src="{{ site.baseurl }}/assets/images/plus.svg"></img>
+                              </a>
                             </span>
                           </div>
                           <p class="post__subtitle">
