@@ -24,5 +24,24 @@
       }
     }
 
+    input[type="file"] {
+      font-size: .8em;
+    }
+
+    &__button {
+      text-align: center;
+
+      button {
+        font-family: "Metric";
+        background-color: lighten($blue--300, 60%);
+        height: 300px;
+        width: 300px;
+        border: none;
+        border-radius: 50%;
+        outline: none;
+        font-size: 3em;
+      }
+    }
+
   }
 }

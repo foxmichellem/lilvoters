@@ -6,10 +6,15 @@
   }
 
   &__copy {
-    margin-top: 3em;
   }
 
   &__content {
     background-color: $blue--300;
+    padding-top: 3em;
+  }
+
+  &__quote {
+    margin-top: 1.5em;
+    font-size: 1.1em;
   }
 }
