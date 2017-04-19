@@ -15,7 +15,7 @@ dl, dd, ol, ul, figure {
  */
 body {
     font-family: "Metric";
-    color: $text-color;
+    color: #3a3a3a;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
@@ -189,4 +189,8 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+.footer {
+    height: 128px;
 }

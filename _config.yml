@@ -9,9 +9,7 @@
 title: LilVoters
 email: contact@lilvoters.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+   Lil Voters is a collection of letters from children to elected officials reminding them that the decisions we make today will be inherited by them tomorrow.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.lilvoters.com" # the base hostname & protocol for your site
 github_username:  foxmichellem

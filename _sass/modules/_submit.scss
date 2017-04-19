@@ -1,6 +1,6 @@
 .submit {
   background-color: $blue--300;
-  padding: 3em 0;
+  padding: 5em 0 7em;
 
   &__form {
 
@@ -14,8 +14,10 @@
       outline: none;
       width: 100%;
       display: block;
-      padding: .1em;
-      font-size: 1.625em;
+      padding: .5em;
+      font-size: 1.25em;
+      resize: none;
+      border: none;
 
       &::placeholder {
         opacity: .5;
