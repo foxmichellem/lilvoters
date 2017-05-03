@@ -37,8 +37,8 @@
 
   &__cta {
     border: 2px solid $teal--100;
-    color: $teal--100;
     font-family: "Light";
+    color: $teal--100;
     font-size: 1.625em;
     padding: .3em 1em .075em;
     margin-top: .25em;
@@ -49,6 +49,7 @@
       color: $white--100;
       font-size: "Metric";
       cursor: pointer;
+
     }
   }
 }
