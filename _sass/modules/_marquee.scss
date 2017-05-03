@@ -4,6 +4,11 @@
   height: 260px;
   max-height: 260px;
 
+  @media screen and (max-width: 45em) {
+    height: 300px;
+    max-height: 300px;
+  }
+
   &__content {
     height: 260px;
     width: 100%;
@@ -17,6 +22,10 @@
     align-items: center;
     justify-content: center;
     color: $blue--200;
+
+    @media screen and (max-width: 45em) {
+      height: 300px;
+    }
   }
 
   &__title {
